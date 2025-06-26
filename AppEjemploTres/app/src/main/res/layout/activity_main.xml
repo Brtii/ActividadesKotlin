@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:layout_margin="40dp"
+        android:hint="Ingresa un número"
+        android:inputType="numberSigned"
+        android:maxWidth="220dp"
+        android:minWidth="220dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+
+    <Button
+        android:id="@+id/btnConsult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Consultar"
+        android:textSize="25sp" />
+</LinearLayout>

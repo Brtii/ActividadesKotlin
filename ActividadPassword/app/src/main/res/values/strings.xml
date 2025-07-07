@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ActividadPassword</string>
+    <string name="txtHi">Bienvenido al validador de contraseñas!</string>
+</resources>

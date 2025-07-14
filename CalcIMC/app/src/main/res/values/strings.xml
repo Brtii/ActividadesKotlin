@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CalcIMC</string>
+    <string name="strHi">Bienvenido al calculador de I.M.C.</string>
+    <string name="strDatosGuardados">Datos guardados!</string>
+    <string name="strIngresar">Ingresa los siguientes datos:</string>
+    <string name="strVisualize">Ya existen datos guardados!</string>
+    <string name="strClasif">Tu I.M.C. es:</string>
+    <string name="strHint1">Nombre de usuario</string>
+    <string name="strHint2">Peso (lb):</string>
+    <string name="strHint3">Altura (m)</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="btnView">Visualizar</string>
+    <string name="btnDelete">Borrar</string>
+    <string name="strDots">...</string>
+    <string name="strBajoPeso">Bajo peso</string>
+    <string name="strNormal">Normal</string>
+    <string name="strSobrep">Sobrepeso</string>
+    <string name="strObes">Obesidad</string>
+
+
+</resources>
